@@ -8,6 +8,10 @@ import com.thejuki.kformmaster.model.BaseFormElement
 import com.thejuki.kformmaster.model.FormPickerDropDownElement
 import com.thejuki.kformmaster.model.FormSingleLineEditTextElement
 import com.thejuki.kformmaster.model.FormSwitchElement
+import io.roadzen.lithotestapp.formfields.BaseFormField
+import io.roadzen.lithotestapp.formfields.DropdownFormField
+import io.roadzen.lithotestapp.formfields.SwitchFormField
+import io.roadzen.lithotestapp.formfields.TextFormField
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package io.roadzen.lithotestapp
+package io.roadzen.lithotestapp.formfields
 
 class DropdownFormField(
     id: Int,
