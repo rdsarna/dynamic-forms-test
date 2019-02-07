@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorFormMasterElementBackground"
+              android:orientation="vertical"
+              android:paddingBottom="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/formElementTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorFormMasterElementTextTitle"
+            android:textSize="@dimen/elementTextTitleSize"
+            tools:text="Personal Info" />
+
+    <io.roadzen.lithotestapp.ToggleButtonTableLayout
+            android:id="@+id/formElementValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@null">
+
+        <!--<TableRow>-->
+            <!--<RadioButton-->
+                    <!--android:id="@+id/button21"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--tools:text="Registered Address" />-->
+
+            <!--<RadioButton-->
+                    <!--android:id="@+id/button22"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:text="Garage" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow>-->
+            <!--<RadioButton-->
+                    <!--android:id="@+id/button23"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--tools:text="Registered Address of the driver" />-->
+
+            <!--<RadioButton-->
+                    <!--android:id="@+id/button4"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--tools:text="Garage" />-->
+        <!--</TableRow>-->
+
+
+    </io.roadzen.lithotestapp.ToggleButtonTableLayout>
+
+    <!--<io.roadzen.lithotestapp.FlexRadioGroup-->
+            <!--android:id="@+id/formElementValue"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@null">-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/button21"-->
+                <!--style="@style/RadioButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--tools:text="One" />-->
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/button22"-->
+                <!--style="@style/RadioButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--tools:text="Two" />-->
+
+    <!--</io.roadzen.lithotestapp.FlexRadioGroup>-->
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/formElementError"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorFormMasterElementErrorTitle"
+            android:textSize="@dimen/elementErrorTitleSize"
+            android:visibility="gone"
+            tools:text="Personal Info" />
+
+</LinearLayout>

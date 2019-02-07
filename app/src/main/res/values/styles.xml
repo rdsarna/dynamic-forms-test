@@ -5,7 +5,20 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorFormMasterElementFocusedTitle</item>
+    </style>
+
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/colorFormMasterElementTextTitle</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorFormMasterElementFocusedTitle</item>
+        <item name="colorControlNormal">@color/colorFormMasterElementTextTitle</item>
+        <item name="colorControlActivated">@color/colorFormMasterElementFocusedTitle</item>
+    </style>
+
+    <style name="TextInputLayoutHintText">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>
